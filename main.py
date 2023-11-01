@@ -1,7 +1,6 @@
 import os
-from pathlib import Path
-from datetime import datetime, timedelta
 import shutil
+from datetime import datetime, timedelta
 
 BASE_FOLDERS = {
     "pdf": [".pdf"],
