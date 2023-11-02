@@ -27,9 +27,6 @@ BASE_FOLDERS = {
     "others": [],
 }
 
-IGNORE_FOLDERS = ["$RECYCLE.BIN"]
-
-
 def get_downloads_path():
     """Returns the path to the Downloads folder for the current user."""
     if os.name == "nt":
